@@ -67,7 +67,7 @@ int main()
 
 		ans = binSearch(n, x);
 		if(ans != -1)
-			b[I]=pos;
+			b[I]=ans;
 		else
 			b[I]=0;
 	}
